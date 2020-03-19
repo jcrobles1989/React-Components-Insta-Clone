@@ -15,8 +15,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <PostsPage/> 
       <SearchBarContainer/>
+      <PostsPage/> 
     </div>
   );
 };

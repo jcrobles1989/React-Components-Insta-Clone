@@ -4,7 +4,6 @@
 import React, {useState} from "react";
 
 const LikeSection = props => {
-  console.log(props, 'from like section')
 
 const [likes, setLikes] = useState(props.likes)
 const incrementLikes = () => {
